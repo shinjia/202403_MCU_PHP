@@ -8,6 +8,39 @@
 <body>
 
 
+<h2>Class 03 (2024/03/11)</h2>
+
+<p>BMI身體質量指數 (bmi)</p>
+<ul>
+    <li>程式執行 <a href="bmi/input.php">input.php</a> </li>
+    <li>查看原始碼：表單輸入 [<a href="show_source.php?dir=bmi&amp;file=input.php">input.php</a>]</li>
+    <li>查看原始碼：計算結果 [<a href="show_source.php?dir=bmi&amp;file=calc.php">calc.php</a>]</li>
+</ul>
+<p>利用 ChatGPT 寫的程式 (bmi)</p>
+<ul>
+    <li>ChatGPT 寫的程式 (並數次改良) [<a href="bmi/chatgpt_1.php">執行</a>] [<a href="show_source.php?dir=bmi&amp;file=chatgpt_1.php">原始碼chatgpt_1.php</a>]</li>
+    <li>ChatGPT 寫的程式 (要求用slider) [<a href="bmi/chatgpt_2.php">執行</a>] [<a href="show_source.php?dir=bmi&amp;file=chatgpt_2.php">原始碼chatgpt_2.php</a>]</li>
+    <li>ChatGPT 寫的程式 (要求文字結果) [<a href="bmi/chatgpt_3.php">執行</a>] [<a href="show_source.php?dir=bmi&amp;file=chatgpt_3.php">原始碼chatgpt_3.php</a>]</li>
+</ul>
+<p>BMI身體質量指數 (bmi_check)</p>
+<ul>
+    <li>說明：增加輸入資料檢查的 Javascript</li>
+    <li>程式執行 <a href="bmi_check/input.php">input.php</a> </li>
+    <li>查看原始碼：表單輸入 [<a href="show_source.php?dir=bmi_check&amp;file=input.php">input.php</a>]</li>
+    <li>查看原始碼：計算結果 [<a href="show_source.php?dir=bmi_check&amp;file=calc.php">calc.php</a>]</li>
+</ul>
+<p>JavaScript 表單檢查 (form_check)</p>
+<ul>
+    <li><a href="form_check/check1.html">check1.html</a> </li>
+    <li><a href="form_check/check2.html">check2.html</a> </li>
+    <li><a href="form_check/check3.html">check3.html</a> </li>
+    <li><a href="form_check/summary_js.html">summary_js.html 各種元件的檢查寫法</a> </li>
+</ul>
+
+<p>&nbsp;</p>
+
+
+
 <h2>Class 02 (2024/03/06)</h2>
 
 <p>九九乘法練習 (game99)</p>
