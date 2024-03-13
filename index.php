@@ -4,8 +4,30 @@
 <meta charset="UTF-8">
 <title>PHP</title>
 <base target="_blank">
+<style>
+h2 { background-color: #FF8800; color:#FFFF00; }    
+</style>
 </head>
 <body>
+<h3>PHP 老師上課實作</h3>
+
+
+<h2>Class 04 (2024/03/13)</h2>
+<p>客戶意見留言 (comment)</p>
+<ul>
+    <li>程式執行 <a href="comment/input.php">input.php</a></li>
+    <li>查看原始碼：表單輸入 [<a href="show_source.php?dir=comment&amp;file=input.php">input.php</a>]</li>
+    <li>查看原始碼：結果存檔 [<a href="show_source.php?dir=comment&amp;file=save.php">save.php</a>]</li>
+</ul>
+
+<p>線上問卷調查 (survey)</p>
+<ul>
+    <li>v1 程式執行 <a href="survey/v1/input.php">input.php</a> </li>
+    <li>v2 程式執行 <a href="survey/v2/input.php">input.php</a> </li>
+</ul>
+
+<p>&nbsp;</p>
+
 
 
 <h2>Class 03 (2024/03/11)</h2>
@@ -28,13 +50,6 @@
     <li>程式執行 <a href="bmi_check/input.php">input.php</a> </li>
     <li>查看原始碼：表單輸入 [<a href="show_source.php?dir=bmi_check&amp;file=input.php">input.php</a>]</li>
     <li>查看原始碼：計算結果 [<a href="show_source.php?dir=bmi_check&amp;file=calc.php">calc.php</a>]</li>
-</ul>
-<p>JavaScript 表單檢查 (form_check)</p>
-<ul>
-    <li><a href="form_check/check1.html">check1.html</a> </li>
-    <li><a href="form_check/check2.html">check2.html</a> </li>
-    <li><a href="form_check/check3.html">check3.html</a> </li>
-    <li><a href="form_check/summary_js.html">summary_js.html 各種元件的檢查寫法</a> </li>
 </ul>
 
 <p>&nbsp;</p>
@@ -73,8 +88,6 @@
 </ul>
 
 <p>&nbsp;</p>
-
-
 
 
 
