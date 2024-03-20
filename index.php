@@ -12,6 +12,29 @@ h2 { background-color: #FF8800; color:#FFFF00; }
 <h3>PHP 老師上課實作</h3>
 
 
+<h2>Class 06 (2024/03/20)</h2>
+
+<p>db_系列程式</p>
+<ul>
+    <li><a href="db_test/">db_test</a></li>
+    <li><a href="db_mysqli/">db_mysqli</a></li>
+</ul>
+
+<p>PHP 連結 MySQL 的程式測試 (db_test)</p>
+<ul>
+    <li>查看原始碼：[<a href="show_source.php?dir=db_test&amp;file=test1.php">db_test/test1.php</a>]</li>
+</li>
+</ul>
+
+<p>改出一套自己的資料庫練習程式</p>
+<ul>
+    <li><a href="my_book/">my_book 書籍資料管理</a></li>
+</ul>
+
+<p>&nbsp;</p>
+
+
+
 <h2>Class 05 (2024/03/18)</h2>
 
 <p>陣列的用法</p>
