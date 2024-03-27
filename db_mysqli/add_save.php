@@ -9,17 +9,28 @@ $height   = $_POST['height']   ?? '';
 $weight   = $_POST['weight']   ?? '';
 $remark   = $_POST['remark']   ?? '';
 
+// 對欄位進行嚴格調整
+$username = trim($username);
+$address  = trim($address);
+$birthday = date('Y-m-d', strtotime($birthday));
+$height = intval($height);
+$weight = intval($weight);
+
 
 // 連接資料庫
 $link = db_open();
 
 // 寫出 SQL 語法
 $sqlstr = "INSERT INTO person(usercode, username, address, birthday, height, weight, remark) VALUES ('$usercode', '$username', '$address', '$birthday', '$height', '$weight', '$remark') ";
-
+echo $sqlstr; 
 // 執行 SQL
 if(mysqli_query($link, $sqlstr)) {
    $new_uid = mysqli_insert_id($link);    // 傳回剛才新增記錄的 auto_increment 的欄位值
    
+   $url = 'display.php?uid=' . $new_uid;
+   header('location: ' . $url);
+   exit;
+
    $msg = '資料已新增!!!!!!!!<br/>';
    $msg .= '<a href="display.php?uid=' . $new_uid . '">詳細</a>';
 }

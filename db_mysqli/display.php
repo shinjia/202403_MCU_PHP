@@ -11,8 +11,14 @@ $sqlstr = "SELECT * FROM person WHERE uid=" . $uid;
 
 // 執行 SQL
 $result = mysqli_query($link, $sqlstr);
-
+// if($row=mysqli_fetch_array($result, MYSQLI_ASSOC)) {
+// if($row=mysqli_fetch_row($result)) {
+// if($row=mysqli_fetch_assoc($result)) {
 if($row=mysqli_fetch_array($result, MYSQLI_ASSOC)) {
+  // echo '<pre>';
+  // print_r($row);
+  // echo '</pre>';
+
    $uid      = $row['uid'];
    $usercode = $row['usercode'];
    $username = $row['username'];

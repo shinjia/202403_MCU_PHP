@@ -11,6 +11,37 @@ h2 { background-color: #FF8800; color:#FFFF00; }
 <body>
 <h3>PHP 老師上課實作</h3>
 
+<div class="hot" style="background-color:rgb(235, 216, 189); padding:5px;">
+    <p>(快速連結) db_系列程式：|
+        <a href="db_mysqli/">db_mysqli</a> |
+        <a href="db_pdo_sth/">db_pdo_sth</a> |
+        <a href="db_ext2/">db_ext2</a> |
+    </p>
+</div>
+
+
+<h2>Class 08 (2024/03/27)</h2>
+<p>查詢程式</p>
+<ul>
+    <li><a href="db_mysqli/find.php">find.php (查詢姓名，用 list_all 修改)</a> 
+        查看原始碼
+        [<a href="show_source.php?dir=db_mysqli&amp;file=find.php">find.php</a>] 
+        [<a href="show_source.php?dir=db_mysqli&amp;file=find_x.php">find_x.php</a>]
+    </li>
+    <li><a href="db_mysqli/findp.php">findp.php (查詢地區，分頁，用 list_page 修改)</a> 
+        查看原始碼
+        [<a href="show_source.php?dir=db_mysqli&amp;file=findp.php">findp.php</a>] 
+        [<a href="show_source.php?dir=db_mysqli&amp;file=findp_x.php">findp_x.php</a>]
+    </li>
+</ul>
+<p>&nbsp;</p>
+
+
+<h2>Class 07 (2024/03/25)</h2>
+<p>參考上列資料庫系列程式</p>
+<p>&nbsp;</p>
+
+
 
 <h2>Class 06 (2024/03/20)</h2>
 

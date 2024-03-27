@@ -3,6 +3,10 @@ include 'config.php';
 
 $uid = $_GET['uid'] ?? 0;
 
+// echo '<pre>';
+// print_r($_SERVER);
+// echo '</pre>';
+// exit;
 // 連接資料庫
 $link = db_open();
 
