@@ -14,7 +14,7 @@ h2 { background-color: #FF8800; color:#FFFF00; }
 <div class="hot" style="background-color:rgb(235, 216, 189); padding:5px;">
     <p>(快速連結) db_系列程式：|
         <a href="db_mysqli/">db_mysqli</a> |
-        <a href="db_pdo_sth/">db_pdo_sth</a> |
+        <a href="db_pdo/">db_pdo</a> |
         <a href="db_ext2/">db_ext2</a> |
     </p>
 </div>
